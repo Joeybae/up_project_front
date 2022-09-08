@@ -7769,7 +7769,7 @@ h1, h2, h3, h4, h5,
   padding: 30px 15px; }
   @media (min-width: 768px) {
     .ftco-about .one-half {
-      padding: 5%;
+      padding: 10%;
       width: 50%; } }
   .ftco-about .one-half.img {
     display: block; }
@@ -9005,3 +9005,23 @@ textarea.form-control {
     background-color: #fff;
     -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2); }
+
+.container1 {
+  width: 100%;
+  padding-right: 2em;
+  padding-left: 7em;
+  padding-top: 7em;
+  margin-right: auto;
+  margin-left: auto; }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px; } }
